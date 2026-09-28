@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>النجمة للأثاث | الطائف</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#faf6ee;--card:#fff;--ink:#2b1d14;--mute:#7a6a5c;--gold:#b8893b;--gold2:#e2c283;--line:#eadfca;--wa:#1fa855;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#181210;--card:#241b16;--ink:#f3eadc;--mute:#b3a493;--line:#3a2d24}}
+:root[data-theme="dark"]{--bg:#181210;--card:#241b16;--ink:#f3eadc;--mute:#b3a493;--line:#3a2d24}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Tajawal',Tahoma,sans-serif;line-height:1.8}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:1050px;margin:auto;padding:0 18px}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:10px 0}
+.logo{font-weight:800;font-size:20px;color:var(--gold)}
+.logo span{color:var(--ink);font-weight:500;font-size:15px}
+nav a{margin-inline-start:14px;font-size:14px;color:var(--mute)}
+.hero{padding:56px 0 44px;text-align:center;background:radial-gradient(ellipse at top,var(--line),transparent 70%)}
+.hero .star{font-size:44px;color:var(--gold)}
+.hero h1{font-size:clamp(30px,7vw,52px);margin:6px 0;font-weight:800}
+.hero p{color:var(--mute);max-width:520px;margin:0 auto 24px}
+.btn{display:inline-block;padding:11px 26px;border-radius:40px;font-weight:700;margin:4px;border:1.5px solid var(--gold)}
+.b1{background:var(--gold);color:#fff}.b2{color:var(--gold)}
+section{padding:40px 0}
+h2{font-size:26px;margin:0 0 6px}
+h2::after{content:"";display:block;width:54px;height:3px;background:var(--gold2);margin-top:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px;margin-top:22px}
+.cat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 8px;text-align:center;font-weight:700}
+.cat i{display:block;font-style:normal;font-size:34px}
+.pg{grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
+.prod{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.img{height:150px;display:grid;place-items:center;font-size:56px;background:linear-gradient(135deg,var(--line),var(--gold2))}
+.prod div.t{padding:14px}
+.prod h3{margin:0;font-size:17px}
+.prod p{margin:4px 0 10px;color:var(--mute);font-size:13.5px}
+.prod .wa{display:block;text-align:center;background:var(--wa);color:#fff;border-radius:10px;padding:8px;font-weight:700;font-size:14px}
+.note{font-size:12.5px;color:var(--mute);margin-top:14px}
+.about{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;margin-top:20px}
+.feat{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.feat span{background:var(--bg);border:1px solid var(--line);border-radius:30px;padding:4px 16px;font-size:14px}
+.contact{display:grid;gap:12px;margin-top:20px}
+.row{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.row b{color:var(--gold)}
+footer{text-align:center;padding:26px 0 90px;color:var(--mute);font-size:13px;border-top:1px solid var(--line)}
+.float{position:fixed;inset-inline-start:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--wa);color:#fff;border-radius:40px;padding:12px 20px;font-weight:700;box-shadow:0 6px 18px rgba(0,0,0,.25);z-index:9}
+@media(max-width:520px){nav{display:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<div class="logo">★ النجمة <span>للأثاث</span></div>
+<nav><a href="#cats">الأقسام</a><a href="#products">المنتجات</a><a href="#about">من نحن</a><a href="#contact">تواصل معنا</a></nav>
+</div></header>
+
+<div class="hero"><div class="wrap">
+<div class="star">★</div>
+<h1>نصنع جمال منزلك</h1>
+<p>أثاث راقٍ بتصاميم أنيقة وجودة تدوم، لتجعل كل غرفة في بيتك تحكي ذوقك. في الطائف.</p>
+<a class="btn b1" href="#products">تصفح المنتجات</a>
+<a class="btn b2" href="#contact">تواصل معنا</a>
+</div></div>
+
+<section id="cats"><div class="wrap">
+<h2>أقسامنا</h2>
+<div class="grid">
+<div class="cat"><i>🛋️</i>غرف المعيشة</div>
+<div class="cat"><i>🛏️</i>غرف النوم</div>
+<div class="cat"><i>🍽️</i>غرف الطعام</div>
+<div class="cat"><i>🪑</i>الكنب والمجالس</div>
+<div class="cat"><i>🗄️</i>الطاولات والخزائن</div>
+<div class="cat"><i>✨</i>الإكسسوارات والديكور</div>
+</div></div></section>
+
+<section id="products"><div class="wrap">
+<h2>منتجات مختارة</h2>
+<div class="grid pg">
+<div class="prod"><div class="img">🛋️</div><div class="t"><h3>كنب مودرن</h3><p>مقاسات وألوان متعددة — السعر عند الطلب</p><a class="wa" href="https://wa.me/966500356530?text=%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%83%D9%86%D8%A8%20%D8%A7%D9%84%D9%85%D9%88%D8%AF%D8%B1%D9%86">اطلب الآن عبر واتساب</a></div></div>
+<div class="prod"><div class="img">🛏️</div><div class="t"><h3>غرفة نوم متكاملة</h3><p>تصميم هادئ وخامات متينة — السعر عند الطلب</p><a class="wa" href="https://wa.me/966500356530?text=%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%BA%D8%B1%D9%81%D8%A9%20%D9%86%D9%88%D9%85">اطلب الآن عبر واتساب</a></div></div>
+<div class="prod"><div class="img">🍽️</div><div class="t"><h3>طاولة طعام</h3><p>تتسع لعدة أفراد — السعر عند الطلب</p><a class="wa" href="https://wa.me/966500356530?text=%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B7%D8%A7%D9%88%D9%84%D8%A9%20%D8%B7%D8%B9%D8%A7%D9%85">اطلب الآن عبر واتساب</a></div></div>
+</div>
+<div class="note">المنتجات أعلاه نماذج توضيحية؛ استبدلها بصور وأسعار منتجاتكم الفعلية.</div>
+</div></section>
+
+<section id="about"><div class="wrap">
+<h2>من نحن</h2>
+<div class="about">النجمة للأثاث متجر في الطائف يجمع بين التصميم الأنيق والجودة العالية وخدمة عملاء تحترم ذوقك. نساعدك في اختيار القطعة المناسبة لبيتك بثقة وراحة.
+<div class="feat"><span>جودة</span><span>تصميم</span><span>خدمة عملاء</span><span>★ 4.4 من 5 (7 مراجعات)</span></div></div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<h2>تواصل معنا</h2>
+<div class="contact">
+<div class="row"><b>الهاتف</b><a href="tel:+966500356530" dir="ltr">+966 50 035 6530</a></div>
+<div class="row"><b>العنوان</b><span>خالد بن الوليد، القمرية، الطائف 26523، السعودية</span></div>
+<div class="row"><b>الموقع</b><a href="https://www.google.com/maps/search/?api=1&query=%D8%A7%D9%84%D9%86%D8%AC%D9%85%D8%A9%20%D9%84%D9%84%D8%A3%D8%AB%D8%A7%D8%AB%20%D8%A7%D9%84%D8%B7%D8%A7%D8%A6%D9%81" target="_blank" rel="noopener">افتح الخريطة ↗</a></div>
+</div>
+<p><a class="btn b1" href="tel:+966500356530">اتصل الآن</a><a class="btn b2" href="https://wa.me/966500356530">واتساب</a></p>
+</div></section>
+
+<footer>© النجمة للأثاث — الطائف</footer>
+<a class="float" href="https://wa.me/966500356530">واتساب 💬</a>
+</body>
+</html>
